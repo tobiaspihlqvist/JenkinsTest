@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class GuessingGameDetermineGuessTest {
+public class TestGuessingGame {
+
 	@Test
 	public void testDetermineGuess_correct_answer() {
 		GuessingGame game = new GuessingGame();
@@ -51,4 +52,5 @@ public class GuessingGameDetermineGuessTest {
 		String stringResult = game.determineGuess(1, 20, 1);
 		assertTrue(stringResult.contains("Your guess is too low"));
 	}
+
 }
