@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="testing.TestGuessingGame" time="0.009" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="testing.TestGuessingGame" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -58,11 +58,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_AllowedLower_boundary" time="0.007"/>
+  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_AllowedLower_boundary" time="0.011"/>
   <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_upper_upper_boundary" time="0"/>
-  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_correct_answer" time="0"/>
-  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_upper_boundary" time="0.001"/>
+  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_correct_answer" time="0.001"/>
+  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_upper_boundary" time="0"/>
   <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_lower_upper_boundary" time="0"/>
   <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_AllowedUpper_boundary" time="0"/>
-  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_lower_boundary" time="0.001"/>
+  <testcase classname="testing.TestGuessingGame" name="testDetermineGuess_userInput_lower_boundary" time="0"/>
 </testsuite>
