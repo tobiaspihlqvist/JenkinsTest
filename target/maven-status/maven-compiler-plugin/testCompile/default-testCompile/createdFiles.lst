@@ -1,1 +1,2 @@
-testing\TestGuessingGame.class
+integrationTests\GuessingGameIntegrationTest.class
+testing\unitTests\GuessingGameUnitTest.class
